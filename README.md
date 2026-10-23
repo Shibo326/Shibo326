@@ -12,7 +12,7 @@
 
 <div align="center">
 
-<a href="https://rhenmart.vercel.app"><img src="https://img.shields.io/badge/Portfolio-rhenmart.vercel.app-FF0000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d0d0d"/></a>&nbsp;
+<a href="https://rhenmart-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-rhenmart--portfolio.vercel.app-FF0000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d0d0d"/></a>&nbsp;
 <a href="https://linkedin.com/in/rhenmart-delacruz-117858312"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0d0d"/></a>&nbsp;
 <a href="https://instagram.com/_rhenmart_"><img src="https://img.shields.io/badge/Instagram-_rhenmart_-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d0d0d"/></a>&nbsp;
 <a href="mailto:Rhenmart978@gmail.com"><img src="https://img.shields.io/badge/Email-Hire_Me-FF4444?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0d0d"/></a>
@@ -561,7 +561,7 @@ Clone fork → Replace profile.png → Deploy to Vercel (get HTTPS URL)
 // open_to → collab · freelance · hackathons · internships
 ```
 
-<a href="https://rhenmart.vercel.app">
+<a href="https://rhenmart-portfolio.vercel.app">
   <img src="https://img.shields.io/badge/VIEW_FULL_PORTFOLIO-FF0000?style=for-the-badge&labelColor=0d0d0d&logo=vercel&logoColor=white"/>
 </a>
 
