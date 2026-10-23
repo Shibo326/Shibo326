@@ -224,7 +224,7 @@ Stack: Unity · Blender · Python (evac_art.py)
 | 🥇 | **Tagisan ng Talino** — Round 1 | **1st Place** |
 | 🥈 | **Tagisan ng Talino** — Round 2 | **2nd Place** |
 | 🥈 | **Collaboratech 2026** — Android Hackathon | **2nd Place** — ShopLift app |
-| 🦄 | **AMD Developer Hackathon: ACT II** — lablab.ai | GreenLens — AI Sustainability Platform |
+| 🦄 | **AMD Developer Hackathon: ACT II** — lablab.ai | Clausify AI |
 
 </div>
 
