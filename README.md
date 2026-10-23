@@ -32,7 +32,6 @@ const rhenmart = {
   education:   "BSIT (Currently Taking) — STI College Global City",
 
   roles: [
-    "Programs Co-Lead  @ AWS User Group e:Novators Philippines",
     "UX/UI & Product Designer",
     "Full-Stack AI Engineer",
   ],
