@@ -6,13 +6,13 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=FF3333&center=true&vCenter=true&width=750&lines=%5BSTATUS%3A+AVAILABLE%5D+%7C+OPEN_TO_WORK+%7C+FREELANCE_OPEN;Building+production+AI+systems+as+a+solo+engineer+%F0%9F%9A%80;AWS+Cloud+Club+Lead+%40+STI+College+Global+City+%E2%80%94+Taguig+%F0%9F%87%B5%F0%9F%87%AD;UX%2FUI+Designer+who+ships+full-stack+AI+backends;ZK+Blockchain+%E2%86%92+AI+APIs+%E2%86%92+Mobile+Apps+%E2%86%92+Web3+%E2%86%92+Whatever+it+takes;Naligaw+lang...+pero+nandito+na+%F0%9F%94%A5)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2500&pause=1000&color=FF3333&center=true&vCenter=true&width=750&lines=%5BSTATUS%3A+AVAILABLE%5D+%7C+OPEN_TO_WORK+%7C+FREELANCE_OPEN;Building+production+AI+systems+as+a+solo+engineer;Programs+Co-Lead+%40+AWS+User+Group+e%3ANovators+Philippines;UX%2FUI+Designer+who+ships+full-stack+AI+backends;AI+APIs+%E2%86%92+Mobile+Apps+%E2%86%92+Web3+%E2%86%92+Whatever+it+takes;Naligaw+lang...+pero+nandito+na)](https://git.io/typing-svg)
 
 </div>
 
 <div align="center">
 
-<a href="https://rhenmart.vercel.app"><img src="https://img.shields.io/badge/🌐_Portfolio-rhenmart.vercel.app-FF0000?style=for-the-badge&labelColor=0d0d0d"/></a>&nbsp;
+<a href="https://rhenmart.vercel.app"><img src="https://img.shields.io/badge/Portfolio-rhenmart.vercel.app-FF0000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d0d0d"/></a>&nbsp;
 <a href="https://linkedin.com/in/rhenmart-delacruz-117858312"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d0d0d"/></a>&nbsp;
 <a href="https://instagram.com/_rhenmart_"><img src="https://img.shields.io/badge/Instagram-_rhenmart_-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0d0d0d"/></a>&nbsp;
 <a href="mailto:Rhenmart978@gmail.com"><img src="https://img.shields.io/badge/Email-Hire_Me-FF4444?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d0d0d"/></a>
@@ -28,24 +28,22 @@ const rhenmart = {
   name:        "Rhenmart Dela Cruz",
   alias:       "Shibo326",
   pronouns:    "he/him",
-  location:    "🇵🇭 Taguig, Philippines",
-  education:   "BSIT — 3rd Year Irregular @ STI College Global City",
+  location:    "Taguig, Philippines",
+  education:   "BSIT (Currently Taking) — STI College Global City",
 
   roles: [
-    "☁️  AWS Cloud Club Lead       @ STI College Global City",
-    "🤝  Programs Co-Lead          @ AWS User Group e:Novators PH",
-    "🎨  UX/UI & Product Designer",
-    "⚙️  Full-Stack AI Engineer",
+    "Programs Co-Lead  @ AWS User Group e:Novators Philippines",
+    "UX/UI & Product Designer",
+    "Full-Stack AI Engineer",
   ],
 
   currentlyBuilding: [
-    "Lakbay       — AI commute assistant for Filipino commuters",
-    "NightScore   — ZK credit scoring on Midnight blockchain",
+    "Lakbay  — AI commute assistant for Filipino commuters",
   ],
 
-  techPhilosophy: "Human research first. AI as enhancer, not replacement.",
-  designPhilosophy: "UX before UI. Research before Figma.",
-  funFact: "Naligaw lang... pero nandito na 🚀",
+  techPhilosophy:    "Human research first. AI as enhancer, not replacement.",
+  designPhilosophy:  "UX before UI. Research before Figma.",
+  funFact:           "Naligaw lang... pero nandito na.",
 };
 ```
 
@@ -110,252 +108,366 @@ const rhenmart = {
 ## `> ls -la ./projects`
 
 <details open>
-<summary><b>🌿 GreenLens AI — AMD Hackathon Greenwashing Detector</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/GreenLens_AI-Greenwashing_Detector-2d8a4e?style=flat-square&logo=leaflet&logoColor=white"/>
+  &nbsp;<b>AI for Sustainability — YFS Build for Good Hackathon</b>
+</summary>
 
 <br/>
 
 > Upload sustainability reports → AI cross-references marketing claims against a company's own data and flags contradictions in under 90 seconds.
 
-```
-Event:    YFS Build for Good Hackathon | Track: AI for Sustainability 🌱
-Role:     Sole Full-Stack Engineer
-Live:     https://amd-hackthon-ll14.vercel.app
-API:      https://amdhackthon-production.up.railway.app
-```
+<table>
+<tr><td><b>Live Demo</b></td><td><a href="https://amd-hackthon-ll14.vercel.app">amd-hackthon-ll14.vercel.app</a></td></tr>
+<tr><td><b>Backend API</b></td><td><a href="https://amdhackthon-production.up.railway.app">amdhackthon-production.up.railway.app</a></td></tr>
+<tr><td><b>Role</b></td><td>Sole Full-Stack Engineer — 2–3 weeks solo build</td></tr>
+<tr><td><b>Track</b></td><td>AI for Sustainability — YFS Build for Good Hackathon</td></tr>
+</table>
 
 | Layer | Stack |
 |---|---|
 | Frontend | React 18 · TypeScript · Vite · TailwindCSS 4 · Framer Motion |
-| Backend | FastAPI · Python 3.11 · ChromaDB · sentence-transformers |
-| AI | **AMD Instinct MI300X** · deepseek-v4-flash · gpt-oss-120b @ 646 tok/s |
-| Deploy | Railway + Vercel |
+| Backend | FastAPI · Python 3.11 · ChromaDB · sentence-transformers (all-MiniLM-L6-v2) |
+| AI Inference | AMD Instinct MI300X · `deepseek-v4-flash` (quality) · `gpt-oss-120b` @ 646 tok/s (fast) |
+| Deployment | Railway (backend) · Vercel (frontend) |
 
-**Engineering highlights:** 5 parallel LLM calls via `asyncio.gather` · RAG pipeline (600-token chunks, 80-token overlap) · tiered quality/fast model routing · `Semaphore(3)` rate-limit protection · 5-strategy JSON parsing pipeline · N→1 conflict detection · self-ping keep-alive system · full PDF/DOCX export
+**What it does:**
+- Generates a **Greenwash Score (0–100)** — color-coded credibility gauge
+- Builds a **Claim vs. Reality Matrix** comparing marketing language against reported data
+- Detects **cross-document contradictions** — finds when marketing says one thing and the actual report says another
+- **Quick Scan** — instant verdict on any claim without uploading
+- **Snap & Check** — photograph product labels for AI vision analysis
+- **Chat Copilot** — RAG-grounded sustainability analyst persona
+- **Bilingual** — responds in English and Filipino/Tagalog
+- Exports full analysis as **PDF or DOCX**
+
+**Engineering highlights:**
+- 5 parallel LLM calls via `asyncio.gather` · `Semaphore(3)` rate-limit protection
+- RAG pipeline — 600-token chunks, 80-token overlap, cosine similarity top-12 retrieval
+- 5-strategy JSON parsing pipeline — handles every malformed LLM output
+- N→1 consolidated conflict detection (from N² pairwise → 1 call)
+- Self-ping keep-alive system — prevents Railway cold starts
+- Full PDF/DOCX export via ReportLab + python-docx
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 </details>
 
 ---
 
 <details open>
-<summary><b>⚖️ Clausify AI — AMD Developer Hackathon: ACT II</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/Clausify_AI-Legal_Clause_Analyzer-6B21A8?style=flat-square&logo=scales&logoColor=white"/>
+  &nbsp;<b>AMD Developer Hackathon: ACT II — lablab.ai 2026</b>
+</summary>
 
 <br/>
 
-> AI-powered legal clause analysis platform built for the AMD Developer Hackathon: ACT II on lablab.ai (2026).
+> AI-powered legal clause analysis platform. Upload contracts → AI identifies risky clauses, vague language, and hidden liabilities — powered by AMD MI300X hardware.
 
-```
-Event:    AMD Developer Hackathon: ACT II | lablab.ai | 2026
-Track:    Unicorn Track 🦄
-Role:     Full-Stack Engineer
-GitHub:   https://github.com/Shibo326/AmdHackathon
-```
+<table>
+<tr><td><b>Event</b></td><td>AMD Developer Hackathon: ACT II · lablab.ai · 2026</td></tr>
+<tr><td><b>Track</b></td><td>Unicorn Track</td></tr>
+<tr><td><b>Role</b></td><td>Full-Stack Engineer</td></tr>
+<tr><td><b>GitHub</b></td><td><a href="https://github.com/Shibo326/AmdHackathon">github.com/Shibo326/AmdHackathon</a></td></tr>
+</table>
 
 | Layer | Stack |
 |---|---|
-| AI | AMD Instinct MI300X · Fireworks AI |
+| AI Inference | AMD Instinct MI300X · Fireworks AI |
 | Frontend | React · TypeScript · Vite · TailwindCSS |
 | Backend | FastAPI · Python |
+
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </details>
 
 ---
 
 <details open>
-<summary><b>🚌 Lakbay — Community-Powered AI Commute Assistant</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/Lakbay-AI_Commute_Assistant-C0392B?style=flat-square&logo=map&logoColor=white"/>
+  &nbsp;<b>Community-Powered Filipino Commute Companion — Active Development</b>
+</summary>
 
 <br/>
 
-> *"Sama-sama tayong makakarating."* — A personal commute companion for Filipino commuters. Not a maps app — knows every route, every fare, every shortcut, every danger zone in real time.
+> *"Sama-sama tayong makakarating."* — A personal commute companion for Filipino commuters. Not a maps app — knows every route, every fare, every shortcut, and every danger zone in real time.
 
-```
-Status:   🚧 Active Development
-Role:     Solo Founder & Full-Stack AI Orchestrator
-Built via: 12 specialized Kiro sub-agents
-```
+<table>
+<tr><td><b>Status</b></td><td>Active Development</td></tr>
+<tr><td><b>Role</b></td><td>Solo Founder & Full-Stack AI Orchestrator</td></tr>
+<tr><td><b>Built via</b></td><td>12 specialized Kiro sub-agents with clear domain ownership</td></tr>
+</table>
 
 | Layer | Stack |
 |---|---|
 | Mobile | React Native · Expo SDK 51 · TypeScript · Expo Router · Mapbox |
-| State | Zustand · TanStack Query · react-native-reanimated |
-| Backend | FastAPI · Python 3.11 · Pydantic v2 · asyncio |
-| Data | Supabase (PostgreSQL + RLS) · Upstash Redis |
-| AI | OpenAI GPT-4o mini · SSE streaming · Twilio OTP |
+| State | Zustand · TanStack Query · react-native-reanimated · Lottie |
+| Backend | FastAPI · Python 3.11 · Pydantic v2 · asyncio · SSE |
+| Database | Supabase (PostgreSQL + Row Level Security) · Upstash Redis |
+| AI | OpenAI GPT-4o mini · SSE streaming · Twilio OTP SMS |
 
-**14 core features:** Dijkstra routing (TIPID cheapest / BILIS fastest) · community-validated fares · Gabay AI in Taglish · trip sharing safety · gamification (badges, Lakbay Points) · bilingual EN/FIL · offline-first · 35+ API endpoints · 12 database tables
+**14 core features:**
+- **Route planning** — Dijkstra pathfinding, two modes: `TIPID` (cheapest) and `BILIS` (fastest) with per-user-type fare breakdown (Regular / Student 20% off / PWD 20% off)
+- **Community validation** — fare submissions, incident reports, hazard alerts with outlier detection and reputation-weighted trust
+- **Gabay AI** — GPT-4o mini chat assistant with SSE streaming, honest in Taglish
+- **Active navigation** — real-time GPS step-by-step guidance with 100m auto-advance
+- **Trip sharing** — "Alam Ko Saan Ka" shareable live-location links with route-deviation safety alerts
+- **Gamification** — Lakbay Points, 6 badge types, reputation tiers
+- **Bilingual** — full English / Filipino UI via `react-i18next`
+- **Offline-first** — cached routes and offline map tiles (native build)
+
+**Scale:** 12 API routers · 35+ endpoints · 12 database tables · 8,000+ lines of code
+
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 
 </details>
 
 ---
 
 <details open>
-<summary><b>🌙 NightScore — ZK Credit Scoring on Midnight Blockchain</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/NightScore-ZK_Credit_Scoring-6B21A8?style=flat-square&logo=ethereum&logoColor=white"/>
+  &nbsp;<b>Privacy-Preserving Credit Scoring on Midnight Blockchain</b>
+</summary>
 
 <br/>
 
-> Privacy-preserving credit scoring. Prove your creditworthiness without revealing your financial activity. 6 wallet signals computed in a ZK circuit — your data never leaves your device.
+> Prove your creditworthiness without revealing your financial activity. 6 wallet signals are computed inside a ZK circuit — your raw data never touches the ledger.
 
-```
-Demo:    https://newmoon-entry-projects.vercel.app
-Tests:   669 tests — Vitest + fast-check (property-based)
-Network: Midnight Blockchain (Local Devnet deployed)
-```
+<table>
+<tr><td><b>Live Demo</b></td><td><a href="https://newmoon-entry-projects.vercel.app">newmoon-entry-projects.vercel.app</a></td></tr>
+<tr><td><b>Test Suite</b></td><td>669 tests — Vitest + fast-check (property-based)</td></tr>
+<tr><td><b>Network</b></td><td>Midnight Blockchain (Local Devnet deployed, Preprod ready)</td></tr>
+</table>
 
 | Layer | Stack |
 |---|---|
 | Blockchain | Midnight · Compact ZK language · Prover/verifier keys |
-| Credit AI | Groq (Llama 3.3 70B) |
+| Credit AI | Groq (Llama 3.3 70B) — grades wallet signals into A–C credit scores |
 | Security AI | Fireworks AI (Llama 3.1 8B) — NightGuard transaction screening |
 | Backend | TypeScript · Node.js 22+ · 9-agent message bus architecture |
-| Frontend | React 18 · Vite · Tailwind · Framer Motion · Lace DApp Connector |
+| Frontend | React 18 · Vite · Tailwind CSS · Framer Motion · Lace DApp Connector |
+| Cache | Supabase · GitHub Actions CI/CD |
 
-**Privacy model:** `walletAge · txFrequency · defiInteractions · repaymentHistory · assetDiversity · liquidationHistory` → private ZK circuit inputs that **never touch the ledger** — only a boolean threshold result is disclosed publicly.
+**Privacy model:**
 
-</details>
+| What is PUBLIC (on-chain) | What is PRIVATE (never on-chain) |
+|---|---|
+| Score hash | Actual credit score / grade |
+| Wallet registered flag | Individual signal values |
+| Total scored counter | AI reasoning / weights |
+| Threshold boolean (true/false only) | Raw wallet history |
 
----
+**ZK Circuit inputs** — `walletAge` · `txFrequency` · `defiInteractions` · `repaymentHistory` · `assetDiversity` · `liquidationHistory` — computed privately, never stored.
 
-<details open>
-<summary><b>🏛️ Pembo E-Hub — Unified Barangay Services Platform</b></summary>
-
-<br/>
-
-> Unified digital services platform for Barangay Pembo, Makati City — residents can access barangay services, document requests, and admin tools from one portal.
-
-```
-Type:    STI College Global City — BS Information Technology Capstone (2026)
-Stack:   PHP 8.2 + Laravel 11 + Filament v3 + MySQL + Tailwind + Alpine.js
-Repo:    github.com/Shibo326/diko-capstone-
-```
-
-**Features:** resident portal · admin/staff panel · role-based access (Spatie Permission) · activity logs · one-click local setup via `start.bat` · XAMPP + Composer auto-detection
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 </details>
 
 ---
 
 <details open>
-<summary><b>📋 AWS SBG Event Attendance System — QR-Powered</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/Pembo_E--Hub-Barangay_Services_Platform-1a6b3a?style=flat-square&logo=server&logoColor=white"/>
+  &nbsp;<b>Unified Digital Services for Barangay Pembo — BSIT Capstone 2026</b>
+</summary>
 
 <br/>
 
-> QR-powered event attendance & certificate-eligibility system for AWS Student Builder Group — STI College Global City.
+> Unified digital services portal for Barangay Pembo, Makati City. Residents can request documents, access barangay services, and track requests — all in one place.
 
-```
-Built for: Live use at AWS SBG events, Taguig
-Status:    Interactive prototype (Firebase integration planned)
-```
+<table>
+<tr><td><b>Type</b></td><td>STI College Global City — BSIT Capstone Project (2026)</td></tr>
+<tr><td><b>GitHub</b></td><td><a href="https://github.com/Shibo326/diko-capstone-">github.com/Shibo326/diko-capstone-</a></td></tr>
+</table>
 
 | Layer | Stack |
 |---|---|
-| Frontend | React 18 · Vite 5 · TailwindCSS 3 |
-| QR | jsQR + getUserMedia (real camera) · qrcode (canvas) |
-| Export | CSV (CertFlow-ready) + PDF (jsPDF) · installable PWA |
-| Planned | Firebase RTDB + Firebase Auth · EmailJS |
+| Backend | PHP 8.2 · Laravel 11 |
+| Admin Panel | Filament v3 (role-based CRUD UI) |
+| Database | MySQL (via XAMPP) |
+| Frontend | Blade · Tailwind CSS · Alpine.js |
+| Auth & Permissions | Spatie Permission · Spatie Activitylog |
 
-**Key design:** Derived-state architecture — only raw scan events stored, eligibility computed on read, never written. Countable-hours model. Append-only corrections. Per-event isolation.
+**Key features:**
+- Resident portal — document requests, service applications
+- Admin / staff panel — role-based access with full audit trail
+- One-click local setup via `start.bat` — auto-detects XAMPP, runs migrations, seeds data
+- Three roles: Admin · Staff · Resident with Spatie Permission gating
+
+![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel_11-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
 </details>
 
 ---
 
 <details open>
-<summary><b>🔗 CRYPTITAPLAYS Builder Workshop 2026 — Web3 on Sui</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/AWS_SBG-Event_Attendance_System-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/>
+  &nbsp;<b>QR-Powered Attendance & Certificate Eligibility</b>
+</summary>
 
 <br/>
 
-> Hands-on Web3 workshop companion — publish a Sui Move `BuilderCard` smart contract on Mainnet, then read it from a Vite/React site via Sui GraphQL.
+> QR-powered event attendance and certificate-eligibility system for AWS Student Builder Group — STI College Global City. Built for live use at AWS SBG events.
 
-```
-Event:    Cryptita Plays Builder Workshop 2026
-Partners: B4Her · B4Y · AWS SBG · DEVCON Laguna · Grantix · Kamiyon Studio
-Chain:    Sui Mainnet
-```
+<table>
+<tr><td><b>Status</b></td><td>Interactive prototype — Firebase integration planned</td></tr>
+<tr><td><b>Built for</b></td><td>Live use at AWS SBG events, Taguig</td></tr>
+</table>
 
 | Layer | Stack |
 |---|---|
-| Smart Contract | Sui Move · BuilderCard module · Display metadata |
-| Frontend | Vite · React · Sui GraphQL · on-chain data |
+| Frontend | React 18 · Vite 5 · TailwindCSS 3 · React Router 6 |
+| QR Scanning | jsQR + getUserMedia (real camera) · 5s cooldown · wake lock |
+| QR Generation | qrcode (canvas-based) |
+| Export | CSV (analytical + CertFlow-ready) · PDF (jsPDF, lazy-loaded) |
+| PWA | Installable on phones — gate scanner works offline |
+| Planned | Firebase RTDB + Firebase Auth · EmailJS notifications |
 
-**Workshop flow:** Clone → Replace profile photo → Deploy site (Vercel) → `sui client publish` → `create_builder_card` → Set `VITE_PORTFOLIO_OBJECT_ID` → Live on Mainnet
+**Architecture decisions:**
+- **Derived-state** — only raw scan events are stored; total time, status, and eligibility are computed on read — never written, never tamperable
+- **Countable-hours model** — time is credited only inside admin-defined active windows, so overnight periods can't inflate totals
+- **Append-only corrections** — history is never rewritten; corrections are appended with a required reason
+- **Per-event isolation** — each event fully isolated under `/events/{eventId}/`
 
-</details>
-
----
-
-<details open>
-<summary><b>📜 CertFlow — Cross-Platform Certificate Automation</b></summary>
-
-<br/>
-
-> Bulk certificate generator and Gmail sender. One Python codebase → Windows `.exe`, macOS `.app`, Android `.apk`, iOS `.ipa`.
-
-```
-Stack:     Python · Flet (Python → Flutter) · Pillow · ReportLab · PyMuPDF · pytest
-Platforms: Windows · macOS · Android · iOS
-```
-
-Upload PNG/JPG/PDF templates → import CSV/XLSX attendee list → customize text → bulk send via Gmail SMTP → download as ZIP.
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
 </details>
 
 ---
 
 <details open>
-<summary><b>🎓 cheche-capstone — 3D Evacuation Simulation</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/CRYPTITAPLAYS-Builder_Workshop_2026-4DA2FF?style=flat-square&logo=web3dotjs&logoColor=white"/>
+  &nbsp;<b>Hands-on Web3 Workshop — Sui Move on Mainnet</b>
+</summary>
 
 <br/>
 
-> Unity + Blender capstone project — 3D building evacuation simulation with AI-driven pathfinding and procedural asset generation.
+> Workshop companion repo for Cryptita Plays Builder Workshop 2026. Participants publish a Sui Move `BuilderCard` smart contract on Mainnet, then wire it to a live Vite/React site via Sui GraphQL.
 
+<table>
+<tr><td><b>Event</b></td><td>Cryptita Plays Builder Workshop 2026</td></tr>
+<tr><td><b>Partners</b></td><td>B4Her · B4Y · AWS SBG · DEVCON Laguna · Grantix · Kamiyon Studio</td></tr>
+<tr><td><b>Chain</b></td><td>Sui Mainnet</td></tr>
+</table>
+
+| Layer | Stack |
+|---|---|
+| Smart Contract | Sui Move · `BuilderCard` module · Display metadata on-chain |
+| Frontend | Vite · React · Sui GraphQL · on-chain data reads |
+
+**Workshop flow:**
 ```
-Stack: Unity · Blender · Python (procedural generation)
+Clone fork → Replace profile.png → Deploy to Vercel (get HTTPS URL)
+→ sui move build && sui move test
+→ sui client publish (Mainnet)
+→ create_builder_card (12 args + shared registry)
+→ Set VITE_PORTFOLIO_OBJECT_ID → Rebuild → Card fills from chain
 ```
+
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
+</details>
+
+---
+
+<details open>
+<summary>
+  <img src="https://img.shields.io/badge/CertFlow-Certificate_Automation-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  &nbsp;<b>Cross-Platform Bulk Certificate Generator</b>
+</summary>
+
+<br/>
+
+> Bulk certificate generator and Gmail sender. One Python codebase compiles to Windows `.exe`, macOS `.app`, Android `.apk`, and iOS `.ipa` via Flet (Python → Flutter).
+
+| Layer | Stack |
+|---|---|
+| UI Framework | Flet (Python → Flutter cross-platform) |
+| Image Processing | Pillow (PNG/JPG rendering) |
+| PDF Processing | ReportLab + PyMuPDF |
+| Email | Gmail SMTP via TLS App Password |
+| Testing | pytest + hypothesis |
+
+**Workflow:** Upload template (PNG/JPG/PDF) → Import attendee CSV/XLSX → Customize font/position → Preview → Bulk send via Gmail → Download all as ZIP
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </details>
 
 ---
 
 <details>
-<summary><b>🌸 HoneyBloom UI — Component Library</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/HoneyBloom_UI-Component_Library-F59E0B?style=flat-square&logo=storybook&logoColor=white"/>
+  &nbsp;<b>UI Component / Design System</b>
+</summary>
 
 <br/>
 
-> UI component/design system project.
+> UI component and design system project.
 
-```
-Repo: github.com/Shibo326/HoneyBloom-Ui
-```
+![GitHub](https://img.shields.io/badge/github.com/Shibo326/HoneyBloom--Ui-181717?style=flat-square&logo=github&logoColor=white)
 
 </details>
 
 ---
 
 <details>
-<summary><b>📚 StudySync — Study Productivity App</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/StudySync-Study_Productivity_App-06B6D4?style=flat-square&logo=bookopen&logoColor=white"/>
+  &nbsp;<b>PWA Study Productivity App</b>
+</summary>
 
 <br/>
 
 > Web-based study productivity application with PWA support and service worker caching.
 
-```
-Stack: HTML · CSS · JavaScript · PWA (manifest + service worker)
-Repo:  github.com/Shibo326/StudySync
-```
+| Stack | Details |
+|---|---|
+| Frontend | HTML · CSS · JavaScript |
+| PWA | Web App Manifest · Service Worker offline caching |
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 
 </details>
 
 ---
 
 <details>
-<summary><b>🌏 AWS Global City Web Project</b></summary>
+<summary>
+  <img src="https://img.shields.io/badge/AWS_Global_City-Web_Project-FF9900?style=flat-square&logo=amazon-aws&logoColor=white"/>
+  &nbsp;<b>AWS Student Builder Group — STI Global City</b>
+</summary>
 
 <br/>
 
 > Web project for AWS Student Builder Group — STI College Global City.
 
-```
-Repo: github.com/Shibo326/AWS-GLOBAL-CITY-WEBPROJECT
-```
+![GitHub](https://img.shields.io/badge/github.com/Shibo326/AWS--GLOBAL--CITY--WEBPROJECT-181717?style=flat-square&logo=github&logoColor=white)
 
 </details>
 
@@ -367,38 +479,20 @@ Repo: github.com/Shibo326/AWS-GLOBAL-CITY-WEBPROJECT
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
-║                    COMPETITION_RECORD.log                           ║
+║                     COMPETITION_RECORD.log                          ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  🥇  1st Place  — UMAK IT Skills Olympics (Web Design)              ║
-║  🥇  1st Place  — Tagisan ng Talino                                 ║
-║  🥈  2nd Place  — Tagisan ng Talino (Round 2)                       ║
-║  🥈  2nd Place  — Collaboratech 2026 Android Hackathon (ShopLift)   ║
-║  🎯  Entry      — NDC Breaking Enigma 2025 (SafePath — offline SOS) ║
-║  🦄  Entry      — AMD Hackathon ACT II lablab.ai (Clausify AI)      ║
+║  [GOLD]    1st Place  — UMAK IT Skills Olympics · Web Design        ║
+║  [GOLD]    1st Place  — Tagisan ng Talino                           ║
+║  [SILVER]  2nd Place  — Tagisan ng Talino Round 2                   ║
+║  [SILVER]  2nd Place  — Collaboratech 2026 Android Hackathon        ║
+║             └─ ShopLift app                                         ║
+║  [ENTRY]   NDC Breaking Enigma 2025                                 ║
+║             └─ SafePath — offline GPS SOS concept                   ║
+║  [ENTRY]   AMD Developer Hackathon: ACT II · lablab.ai              ║
+║             └─ Clausify AI — legal clause analysis platform         ║
 ╠══════════════════════════════════════════════════════════════════════╣
-║  [TOTAL]  6 competitions  ·  2× Gold  ·  2× Silver                 ║
+║  TOTAL  6 entries  ·  2x Gold  ·  2x Silver                        ║
 ╚══════════════════════════════════════════════════════════════════════╝
-```
-
-</div>
-
----
-
-## `> cat roles.md`
-
-<div align="center">
-
-```
-┌─────────────────────────────────────────────────────────┐
-│  ☁️  AWS Cloud Club Lead                                 │
-│      STI College Global City, Taguig                    │
-├─────────────────────────────────────────────────────────┤
-│  🤝  Programs Co-Lead                                   │
-│      AWS User Group e:Novators Philippines              │
-├─────────────────────────────────────────────────────────┤
-│  🎓  3rd Year BSIT (Irregular)                          │
-│      STI College Global City                            │
-└─────────────────────────────────────────────────────────┘
 ```
 
 </div>
@@ -435,17 +529,17 @@ Repo: github.com/Shibo326/AWS-GLOBAL-CITY-WEBPROJECT
 ╔══════════════════════════════════════════════════════════════════╗
 ║  DESIGN_PROCESS.exe  ·  Research-Driven  ·  Human First         ║
 ╠══════════════════════════════════════════════════════════════════╣
-║  01  [✅ COMPLETE]  Human Research                               ║
+║  01  [COMPLETE]  Human Research                                  ║
 ║       Interviews, papers, observation. Raw insights first.       ║
-║  02  [✅ COMPLETE]  AI Enhancement                               ║
+║  02  [COMPLETE]  AI Enhancement                                  ║
 ║       AI enhances findings & validates design decisions.         ║
-║  03  [✅ COMPLETE]  Stakeholder Sync                             ║
+║  03  [COMPLETE]  Stakeholder Sync                                ║
 ║       Devs & clients. Identify changes & improvements.           ║
-║  04  [🔴  ACTIVE ]  Figma Design                                ║
+║  04  [ ACTIVE ]  Figma Design                                    ║
 ║       Prototype & hi-fi UI based on research.                    ║
-║  05  [⏳  QUEUED ]  Kiro Polish                                  ║
+║  05  [ QUEUED ]  Kiro Polish                                     ║
 ║       Import design, optimize & enhance before development.      ║
-║  06  [⏳  QUEUED ]  Dev Handoff                                  ║
+║  06  [ QUEUED ]  Dev Handoff                                     ║
 ║       Final polished design ready for development.               ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║  // RHENMART_DELACRUZ  ·  UX/UI_DESIGNER  ·  DESIGNER_READY     ║
