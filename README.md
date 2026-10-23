@@ -276,42 +276,7 @@ const rhenmart = {
 
 ---
 
-<details open>
-<summary>
-  <img src="https://img.shields.io/badge/Pembo_E--Hub-Barangay_Services_Platform-1a6b3a?style=flat-square&logo=laravel&logoColor=white"/>
-  &nbsp;<b>Unified Digital Services for Barangay Pembo — BSIT Capstone 2026</b>
-</summary>
-<br/>
 
-> Unified digital services portal for Barangay Pembo, Makati City. Residents can request documents, access barangay services, and track requests — all in one place.
-
-<table>
-<tr><td><b>Type</b></td><td>STI College Global City — BSIT Capstone Project (2026)</td></tr>
-<tr><td><b>GitHub</b></td><td><a href="https://github.com/Shibo326/diko-capstone-">github.com/Shibo326/diko-capstone-</a></td></tr>
-</table>
-
-| Layer | Stack |
-|---|---|
-| Backend | PHP 8.2 · Laravel 11 |
-| Admin Panel | Filament v3 (role-based CRUD UI) |
-| Database | MySQL via XAMPP |
-| Frontend | Blade · Tailwind CSS · Alpine.js |
-| Auth & Permissions | Spatie Permission · Spatie Activitylog |
-
-**Key features:**
-- Resident portal — document requests, service applications
-- Admin / staff panel — role-based access with full audit trail
-- One-click local setup via `start.bat` — auto-detects XAMPP, runs migrations, seeds data
-- Three roles: Admin · Staff · Resident with Spatie Permission gating
-
-![PHP](https://img.shields.io/badge/PHP_8.2-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel_11-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-</details>
-
----
 
 <details open>
 <summary>
@@ -492,15 +457,9 @@ Clone fork → Replace profile.png → Deploy to Vercel (get HTTPS URL)
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Shibo326&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=FF4444&icon_color=FF4444&text_color=ffffff&ring_color=FF0000&border_radius=6&include_all_commits=true&count_private=true" height="175"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Shibo326&show_icons=true&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=FF4444&icon_color=FF4444&text_color=ffffff&ring_color=FF0000&border_radius=6" height="170"/>
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shibo326&layout=compact&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=FF4444&text_color=ffffff&border_radius=6&langs_count=8" height="175"/>
-
-</div>
-
-<div align="center">
-
-![Streak](https://streak-stats.demolab.com?user=Shibo326&theme=dark&hide_border=true&background=0d0d0d&stroke=FF0000&ring=FF4444&fire=FF4444&currStreakLabel=FF4444&sideLabels=ffffff&dates=888888&border_radius=6)
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Shibo326&layout=compact&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=FF4444&text_color=ffffff&border_radius=6&langs_count=8" height="170"/>
 
 </div>
 
